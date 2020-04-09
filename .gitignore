@@ -338,3 +338,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Assets/TextMesh Pro
+/Library
+/UserSettings
+/Temp
+/ProjectSettings
+/Assembly-CSharp.csproj
