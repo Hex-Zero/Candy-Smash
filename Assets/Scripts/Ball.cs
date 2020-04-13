@@ -38,7 +38,7 @@ public class Ball : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush);
         }
     }
-
+    // Lock the ball the the paddle
     private void LockBallToPaddle()
     {
         Vector2 paddlePos = new Vector2(paddle1.transform.position.x, paddle1.transform.position.y);
